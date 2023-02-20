@@ -2,6 +2,6 @@
     let name = "World";
 </script>
 
-<div>
+<h1 class="text-3xl font-bold underline">
     Hello {name}
-</div>
+</h1>
