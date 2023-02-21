@@ -10,4 +10,10 @@ export default defineConfig({
         }),
         svelte(),
     ],
+    resolve: {
+        alias: {
+            "~bootstrap": "bootstrap",
+            "../../node_modules/bootstrap": "bootstrap",
+        },
+    },
 });

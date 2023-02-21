@@ -1,7 +1,7 @@
-import "./bootstrap";
 import "../scss/app.scss";
+import "./bootstrap";
+import "@tabler/core/src/js/tabler";
 import { createInertiaApp } from "@inertiajs/svelte";
-import * as bootstrap from "bootstrap";
 
 createInertiaApp({
     resolve: (name) => {

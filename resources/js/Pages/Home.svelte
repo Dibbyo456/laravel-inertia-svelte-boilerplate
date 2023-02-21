@@ -2,18 +2,23 @@
     let name = "World";
 </script>
 
-<div class="dropdown">
-    <button
-        class="btn btn-secondary dropdown-toggle"
-        type="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
-    >
-        Hello {name}
-    </button>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/">Action</a></li>
-        <li><a class="dropdown-item" href="/">Another action</a></li>
-        <li><a class="dropdown-item" href="/">Something else here</a></li>
-    </ul>
+<h1>Hello {name}</h1>
+
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-title">Wow! Everything worked!</h4>
+    <div class="text-muted">Your account has been saved!</div>
+</div>
+<div class="alert alert-info" role="alert">
+    <h4 class="alert-title">Did you know?</h4>
+    <div class="text-muted">Here is something that you might like to know.</div>
+</div>
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-title">Uh oh, something went wrong</h4>
+    <div class="text-muted">Sorry! There was a problem with your request.</div>
+</div>
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-title">I'm so sorry&hellip;</h4>
+    <div class="text-muted">
+        Your account has been deleted and can't be restored.
+    </div>
 </div>
