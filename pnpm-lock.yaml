@@ -4,29 +4,29 @@ specifiers:
   '@inertiajs/svelte': ^1.0.2
   '@popperjs/core': ^2.11.6
   '@sveltejs/vite-plugin-svelte': ^2.0.2
-  '@tabler/core': 1.0.0-beta17
-  autosize: ^5.0.2
+  '@tabler/core': github:tabler/tabler#dev
+  autosize: ^6.0.1
   axios: ^1.3.3
   bootstrap: ^5.2.3
   imask: ^6.4.3
   laravel-vite-plugin: ^0.7.4
   sass: ^1.58.3
   svelte: ^3.55.1
-  vite: ^4.1.3
+  vite: ^4.1.4
 
 devDependencies:
   '@inertiajs/svelte': 1.0.2_svelte@3.55.1
   '@popperjs/core': 2.11.6
-  '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.1.3
-  '@tabler/core': 1.0.0-beta17_autosize@5.0.2+imask@6.4.3
-  autosize: 5.0.2
+  '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.1.4
+  '@tabler/core': github.com/tabler/tabler/43b3e0d942fd3e308fbe11938139632c48a24b7a_autosize@6.0.1+imask@6.4.3
+  autosize: 6.0.1
   axios: 1.3.3
   bootstrap: 5.2.3_@popperjs+core@2.11.6
   imask: 6.4.3
-  laravel-vite-plugin: 0.7.4_vite@4.1.3
+  laravel-vite-plugin: 0.7.4_vite@4.1.4
   sass: 1.58.3
   svelte: 3.55.1
-  vite: 4.1.3_sass@1.58.3
+  vite: 4.1.4_sass@1.58.3
 
 packages:
 
@@ -259,7 +259,7 @@ packages:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.1+vite@4.1.3:
+  /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.1+vite@4.1.4:
     resolution: {integrity: sha512-xCEan0/NNpQuL0l5aS42FjwQ6wwskdxC3pW1OeFtEKNZwRg7Evro9lac9HesGP6TdFsTv2xMes5ASQVKbCacxg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -272,67 +272,10 @@ packages:
       magic-string: 0.27.0
       svelte: 3.55.1
       svelte-hmr: 0.15.1_svelte@3.55.1
-      vite: 4.1.3_sass@1.58.3
-      vitefu: 0.2.4_vite@4.1.3
+      vite: 4.1.4_sass@1.58.3
+      vitefu: 0.2.4_vite@4.1.4
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@tabler/core/1.0.0-beta17_autosize@5.0.2+imask@6.4.3:
-    resolution: {integrity: sha512-tQpzw8oi7vjLJTyCWLHHXKyGTd0JA4bsgN3w7lifl6HhyNOQSsxIx9EpkE/ZT842MlFwy+2tXkxi5fghegHQBw==}
-    engines: {node: '>=16'}
-    peerDependencies:
-      apexcharts: ^3.36.3
-      autosize: ^5.0.2
-      choices.js: ^10.2.0
-      countup.js: ^2.3.2
-      dropzone: ^6.0.0-beta.2
-      flatpickr: ^4.6.13
-      fslightbox: ^3.3.1
-      imask: ^6.4.3
-      jsvectormap: ^1.5.1
-      list.js: ^2.3.1
-      litepicker: ^2.0.12
-      nouislider: ^15.6.1
-      plyr: ^3.7.3
-      tinymce: ^6.3.1
-      tom-select: ^2.2.2
-    peerDependenciesMeta:
-      apexcharts:
-        optional: true
-      autosize:
-        optional: true
-      choices.js:
-        optional: true
-      countup.js:
-        optional: true
-      dropzone:
-        optional: true
-      flatpickr:
-        optional: true
-      fslightbox:
-        optional: true
-      imask:
-        optional: true
-      jsvectormap:
-        optional: true
-      list.js:
-        optional: true
-      litepicker:
-        optional: true
-      nouislider:
-        optional: true
-      plyr:
-        optional: true
-      tinymce:
-        optional: true
-      tom-select:
-        optional: true
-    dependencies:
-      '@popperjs/core': 2.11.6
-      autosize: 5.0.2
-      bootstrap: 5.3.0-alpha1_@popperjs+core@2.11.6
-      imask: 6.4.3
     dev: true
 
   /anymatch/3.1.3:
@@ -347,8 +290,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /autosize/5.0.2:
-    resolution: {integrity: sha512-FPVt5ynkqUAA9gcMZnJHka1XfQgr1WNd/yRfIjmj5WGmjua+u5Hl9hn8M2nU5CNy2bEIcj1ZUwXq7IOHsfZG9w==}
+  /autosize/6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==}
     dev: true
 
   /axios/1.3.3:
@@ -579,15 +522,15 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /laravel-vite-plugin/0.7.4_vite@4.1.3:
+  /laravel-vite-plugin/0.7.4_vite@4.1.4:
     resolution: {integrity: sha512-NlIuXbeuI+4NZzRpWNpGHRVTwuFWessvD7QoD+o2MlyAi7qyUS4J8r4/yTlu1dl9lxcR7iKoYUmHQqZDcrw2KA==}
     engines: {node: '>=14'}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
       picocolors: 1.0.0
-      vite: 4.1.3_sass@1.58.3
-      vite-plugin-full-reload: 1.0.5_vite@4.1.3
+      vite: 4.1.4_sass@1.58.3
+      vite-plugin-full-reload: 1.0.5_vite@4.1.4
     dev: true
 
   /lodash.isequal/4.5.0:
@@ -742,18 +685,18 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /vite-plugin-full-reload/1.0.5_vite@4.1.3:
+  /vite-plugin-full-reload/1.0.5_vite@4.1.4:
     resolution: {integrity: sha512-kVZFDFWr0DxiHn6MuDVTQf7gnWIdETGlZh0hvTiMXzRN80vgF4PKbONSq8U1d0WtHsKaFODTQgJeakLacoPZEQ==}
     peerDependencies:
       vite: ^2 || ^3 || ^4
     dependencies:
       picocolors: 1.0.0
       picomatch: 2.3.1
-      vite: 4.1.3_sass@1.58.3
+      vite: 4.1.4_sass@1.58.3
     dev: true
 
-  /vite/4.1.3_sass@1.58.3:
-    resolution: {integrity: sha512-0Zqo4/Fr/swSOBmbl+HAAhOjrqNwju+yTtoe4hQX9UsARdcuc9njyOdr6xU0DDnV7YP0RT6mgTTOiRtZgxfCxA==}
+  /vite/4.1.4_sass@1.58.3:
+    resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -786,7 +729,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu/0.2.4_vite@4.1.3:
+  /vitefu/0.2.4_vite@4.1.4:
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -794,5 +737,65 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.1.3_sass@1.58.3
+      vite: 4.1.4_sass@1.58.3
+    dev: true
+
+  github.com/tabler/tabler/43b3e0d942fd3e308fbe11938139632c48a24b7a_autosize@6.0.1+imask@6.4.3:
+    resolution: {tarball: https://codeload.github.com/tabler/tabler/tar.gz/43b3e0d942fd3e308fbe11938139632c48a24b7a}
+    id: github.com/tabler/tabler/43b3e0d942fd3e308fbe11938139632c48a24b7a
+    name: '@tabler/core'
+    version: 1.0.0-beta17
+    engines: {node: '>=16'}
+    peerDependencies:
+      apexcharts: ^3.37.0
+      autosize: ^6.0.1
+      choices.js: ^10.2.0
+      countup.js: ^2.4.2
+      dropzone: ^6.0.0-beta.2
+      flatpickr: ^4.6.13
+      fslightbox: ^3.4.1
+      imask: ^6.4.3
+      jsvectormap: ^1.5.1
+      list.js: ^2.3.1
+      litepicker: ^2.0.12
+      nouislider: ^15.7.0
+      plyr: ^3.7.3
+      tinymce: ^6.3.1
+      tom-select: ^2.2.2
+    peerDependenciesMeta:
+      apexcharts:
+        optional: true
+      autosize:
+        optional: true
+      choices.js:
+        optional: true
+      countup.js:
+        optional: true
+      dropzone:
+        optional: true
+      flatpickr:
+        optional: true
+      fslightbox:
+        optional: true
+      imask:
+        optional: true
+      jsvectormap:
+        optional: true
+      list.js:
+        optional: true
+      litepicker:
+        optional: true
+      nouislider:
+        optional: true
+      plyr:
+        optional: true
+      tinymce:
+        optional: true
+      tom-select:
+        optional: true
+    dependencies:
+      '@popperjs/core': 2.11.6
+      autosize: 6.0.1
+      bootstrap: 5.3.0-alpha1_@popperjs+core@2.11.6
+      imask: 6.4.3
     dev: true
